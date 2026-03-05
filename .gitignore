@@ -1,0 +1,21 @@
+# Streamlit secrets (contains passwords - NEVER commit this)
+.streamlit/secrets.toml
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+env/
+
+# Database files (user data)
+*.db
+*.sqlite
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
