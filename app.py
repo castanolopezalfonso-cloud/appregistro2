@@ -166,7 +166,7 @@ def exportar_pdf(df, mes, anio):
     pdf.ln(5)
     pdf.set_font("Arial", 'B', 12)
     pdf.cell(0, 10, f"TOTAL MES: {df['Total'].sum():,.2f} EUR", 0, 1, 'R')
-    return bytes(pdf.output(dest='S'))
+    return pdf.output(dest='S').encode('latin-1')
 
 def obtener_info_dia(fecha):
     y = fecha.year
