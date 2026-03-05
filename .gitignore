@@ -1,5 +1,5 @@
-# Streamlit secrets (contains passwords - NEVER commit this)
-.streamlit/secrets.toml
+# Streamlit folder (contains passwords and config - NEVER commit this)
+.streamlit/
 
 # Python cache
 __pycache__/
